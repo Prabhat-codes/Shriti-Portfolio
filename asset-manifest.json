@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shriti-Portfolio/static/css/main.a5782cd2.css",
+    "main.js": "/Shriti-Portfolio/static/js/main.c7ea8981.js",
+    "index.html": "/Shriti-Portfolio/index.html",
+    "main.a5782cd2.css.map": "/Shriti-Portfolio/static/css/main.a5782cd2.css.map",
+    "main.c7ea8981.js.map": "/Shriti-Portfolio/static/js/main.c7ea8981.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5782cd2.css",
+    "static/js/main.c7ea8981.js"
+  ]
+}
