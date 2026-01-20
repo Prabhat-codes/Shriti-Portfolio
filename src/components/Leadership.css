@@ -1,0 +1,72 @@
+.leadership {
+  margin-top: 20px;
+}
+
+.leadership-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.leadership-item {
+  position: relative;
+  padding-left: 20px;
+  border-left: 2px solid #333333;
+  transition: all 0.3s ease;
+}
+
+.leadership-item:hover {
+  border-left-color: #FF6B35;
+}
+
+.leadership-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.leadership-organization {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.leadership-arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.leadership-item:hover .leadership-arrow {
+  opacity: 1;
+}
+
+.leadership-role {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FF6B35;
+  margin-bottom: 8px;
+}
+
+.leadership-period {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 16px;
+}
+
+.leadership-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cccccc;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .leadership-organization {
+    font-size: 20px;
+  }
+
+  .leadership-role {
+    font-size: 16px;
+  }
+}

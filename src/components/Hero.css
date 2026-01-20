@@ -1,0 +1,72 @@
+.hero {
+  padding-top: 40px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+.title-line-1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -2px;
+}
+
+.title-line-2 {
+  font-size: 72px;
+  font-weight: 800;
+  color: #666666;
+  letter-spacing: -2px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #cccccc;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .title-line-1,
+  .title-line-2 {
+    font-size: 48px;
+  }
+
+  .hero-stats {
+    gap: 40px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+}

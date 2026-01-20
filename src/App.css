@@ -1,0 +1,43 @@
+.app {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  padding: 40px;
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.left-section {
+  position: sticky;
+  top: 40px;
+  height: fit-content;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1024px) {
+  .app-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .left-section {
+    position: relative;
+    top: 0;
+  }
+
+  .app {
+    padding: 20px;
+  }
+}
